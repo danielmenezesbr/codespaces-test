@@ -1,0 +1,16 @@
+{
+	"name": "Edit PDFs in Firefox",
+	"build": {
+		"dockerfile": "./Dockerfile",
+		"context": "."
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils:1": {},
+		"ghcr.io/devcontainers/features/desktop-lite:1": {
+			"password": "control"
+		}
+	},
+	"forwardPorts": [
+		6080
+	]
+}
