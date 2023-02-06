@@ -1,3 +1,3 @@
 FROM mcr.microsoft.com/devcontainers/base:focal
 
-RUN apt-get update && export DEBIAN_FRONTEND=noninteractive && apt-get install -y firefox
+RUN apt-get update && export DEBIAN_FRONTEND=noninteractive && apt-get install -y firefox libreoffice
